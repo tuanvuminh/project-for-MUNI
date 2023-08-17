@@ -1,0 +1,2 @@
+# Client for Echo Server
+This project contains a client written in Java that communicates with an echo server running at IP address 78.128.211.58 on port 4444. The echo server is capable of receiving a message over TCP and then sending back the same message to the client. The client takes input data from user input (stdin), sends it to the echo server, and then prints the result received from the server to the standard output. The project serves as a basic example of network communication between a client and a server within the Java programming environment.
