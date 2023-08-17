@@ -20,7 +20,8 @@ public class Main {
             System.out.println("Připojení k serveru proběhlo úspěšně. Pro ukončení konverzace zadejte \"exit\"");
 
             String userMessage;
-            for (boolean continueConversation = true; continueConversation; ) {
+            boolean continueConversation = true;
+            while (continueConversation) {
                 userMessage = reader.readLine();
 
                 if (userMessage.equalsIgnoreCase("exit")) {
